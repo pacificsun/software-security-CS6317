@@ -15,8 +15,8 @@ def is_admin(username: str) -> int:
 
 # To test run those commands
 print(is_admin('ran'))
-# print(is_admin('haki'))
-# print(is_admin('foo'))
+print(is_admin('haki'))
+print(is_admin('foo'))
 # print(is_admin("' Or 1=1;  --"))
 
 # this example works in sqlite with excutescript(), comment line 5 and uncomment line 6
